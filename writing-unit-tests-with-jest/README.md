@@ -99,8 +99,7 @@ Now we need to write the actual `addTwoNumbers` function.
 Your file might end up looking something like this:
 
 ```js
-const dataTypeError =
-  'Incorrect data types passed to function. Types must be number';
+const dataTypeError = 'Error: Invalid data type passed into function';
 
 const addTwoNumbers = (num1, num2) => {
   if (typeof num1 === 'number' && typeof num2 === 'number') {
