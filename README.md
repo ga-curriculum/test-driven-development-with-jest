@@ -1,21 +1,23 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Test Driven Development with Jest</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module provides an introduction to Test Driven Development (TDD) using Jest, a popular JavaScript testing framework. Learners will gain an understanding of the core principles behind TDD and how it improves code quality. The module covers essential topics such as setting up a testing environment, writing unit tests, and practicing TDD techniques.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                   | Est. Delivery Time | Skills                                                                                   |
+| ------------------------------------------------------------------------ | :----------------: | ---------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                               |       5 min        | Set up the development environment.                                                      |
+| [Test Driven Development](./test-driven-development/README.md)           |       5 min        | When and how to apply Test Driven Development (TDD) principles                           |
+| [Getting started with Jest](./getting-started-with-jest/README.md)       |       10 min       | Create a basic testing environment using Jest                                            |
+| [Writing Unit Tests with Jest](./writing-unit-tests-with-jest/README.md) |       20 min       | Write unit tests using `describe()`, `it()`,`test()` and matchers like `expect().toBe()` |
+| [Skipping Tests](./skipping-tests/README.md)                             |       10 min       | Apply techniques to skip tests in Jest                                                   |
+| [Practicing TDD](./practicing-tdd/README.md)                             |       30 min       | Implement new functions that satisfy predefined test conditions                          |
+| **Total content**                                                        |       80 min       |                                                                                          |
 
 ## References
 
@@ -25,32 +27,16 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+- Intermediate Level JavaScript
 
 ### Solution code
 
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [MEA- Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest/canvas-landing-pages/mea.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest/canvas-landing-pages/fallback.html)
 
 ### Resources
 

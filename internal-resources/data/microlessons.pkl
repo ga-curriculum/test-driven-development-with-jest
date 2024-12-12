@@ -9,23 +9,41 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+testDrivenDevelopment = new Template.Microlesson {
+  friendlyName = "Test Driven Development"
+  dirName = "test-driven-development"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+gettingStartedWithJest = new Template.Microlesson {
+  friendlyName = "Getting started with Jest"
+  dirName = "getting-started-with-jest"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+writingUnitTestsWithJest = new Template.Microlesson {
+  friendlyName = "Writing Unit Tests with Jest"
+  dirName = "writing-unit-tests-with-jest"
   type = "Content"
   videoUrl = ""
 }
+
+skippingTests = new Template.Microlesson {
+  friendlyName = "Skipping Tests"
+  dirName = "skipping-tests"
+  type = "Content"
+  videoUrl = ""
+}
+
+practicingTdd = new Template.Microlesson {
+  friendlyName = "Practicing TDD"
+  dirName = "practicing-tdd"
+  type = "Content"
+  videoUrl = ""
+}
+
+
+
+
