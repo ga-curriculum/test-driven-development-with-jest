@@ -44,9 +44,9 @@ describe('addTwoNumbers', () => {
   });
 
   xit('returns an error message if incorrect data types are passed', () => {
-    expect(addTwoNumbers(1, '1')).toBe(numbersDataTypeError);
-    expect(addTwoNumbers(1, {})).toBe(numbersDataTypeError);
-    expect(addTwoNumbers([], {})).toBe(numbersDataTypeError);
+    expect(addTwoNumbers(1, '1')).toBe(dataTypeError);
+    expect(addTwoNumbers(1, {})).toBe(dataTypeError);
+    expect(addTwoNumbers([], {})).toBe(dataTypeError);
   });
 });
 ```

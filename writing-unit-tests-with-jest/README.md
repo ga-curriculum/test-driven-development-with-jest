@@ -78,9 +78,9 @@ describe('addTwoNumbers', () => {
   });
 
   it('returns an error message if incorrect data types are passed', () => {
-    expect(addTwoNumbers(1, '1')).toBe(numbersDataTypeError);
-    expect(addTwoNumbers(1, {})).toBe(numbersDataTypeError);
-    expect(addTwoNumbers([], {})).toBe(numbersDataTypeError);
+    expect(addTwoNumbers(1, '1')).toBe(dataTypeError);
+    expect(addTwoNumbers(1, {})).toBe(dataTypeError);
+    expect(addTwoNumbers([], {})).toBe(dataTypeError);
   });
 });
 ```
@@ -92,27 +92,31 @@ Copy and paste the code above into your `functions.test.js` file.
 Now we need to write the actual `addTwoNumbers` function.
 
 1. Create a new file called `functions.js`.
-2. Write the function and ensure it matches the test requirements.
+2. Write a function that adds two numbers and ensure it matches _all_ the test requirements.
 3. Export the function so it can be used in the tests.
-4. You'll also need to create a variable for the `numbersDataTypeError` and add it to the exports.
+4. Its also good practice to create a variable for common errors like `dataTypeError` and add it to the exports.
 
-Your file might look like this:
+Your file might end up looking something like this:
 
 ```js
-const numbersDataTypeError =
+const dataTypeError =
   'Incorrect data types passed to function. Types must be number';
 
-function addTwoNumbers(num1, num2) {
-  // complete the test function
-}
+const addTwoNumbers = (num1, num2) => {
+  if (typeof num1 === 'number' && typeof num2 === 'number') {
+    return num1 + num2;
+  } else {
+    return dataTypeError;
+  }
+};
 
-module.exports = { addTwoNumbers, numbersDataTypeError };
+module.exports = { addTwoNumbers, dataTypeError };
 ```
 
 Now import the function and the error message into your `functions.test.js` file:
 
 ```js
-const { addTwoNumbers, numbersDataTypeError } = require('./functions');
+const { addTwoNumbers, dataTypeError } = require('./functions');
 ```
 
 ## Run Your Tests

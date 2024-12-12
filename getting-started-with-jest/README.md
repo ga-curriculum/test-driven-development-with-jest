@@ -47,8 +47,8 @@ Now we need to tell npm how to run Jest. Open your `package.json` file and add t
 
 ```json
 "scripts": {
-"test": "jest",
-"test:watch": "jest --watch"
+  "test": "jest",
+  "test:watch": "jest --watch"
 }
 ```
 
@@ -72,7 +72,7 @@ Your entire `package.json` might now look like this:
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
+    "jest": "^29.x.x"
   }
 }
 ```

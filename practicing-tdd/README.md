@@ -11,18 +11,19 @@ Now it’s time to practice putting TDD into action. We’ve got some test cases
 
 To get started:
 
-1. **Copy the starter code:** Copy and paste the tests below into your `functions.test.js` file.
+1. **Copy the starter code:**
+   Copy and paste the tests below into your `functions.test.js` file.
 
-1. **Write functions to satisfy the tests:**  
+2. **Write functions to satisfy the tests:**  
    Open your `functions.js` file and define the functions exactly as they’re named in the provided tests. Each function should do just enough to pass the tests.
 
-1. **Export the new functions:**  
+3. **Export the new functions:**  
    Make sure all your newly created functions are added to `module.exports` at the bottom of `functions.js`. This lets the test file know where to find them.
 
-1. **Import you functions into the test file:**  
+4. **Import you functions into the test file:**  
    At the top of your `functions.test.js` file, add the necessary imports to bring in your functions. If you forget this step, Jest won’t know how to access your code.
 
-1. **Run the tests and iterate on your work:**  
+5. **Run the tests and iterate on your work:**  
    Copy the provided tests into your `functions.test.js` file. Notice how each test block is prefixed with an `x` in `xdescribe`. Remove the `x` to enable each set of tests, one at a time, and run `npm test` (or `npm run test`) to see if everything passes. If a test fails, adjust your code and run it again. Keep going until all tests are green!
 
 ## The starter code
