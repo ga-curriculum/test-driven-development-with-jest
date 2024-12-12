@@ -7,13 +7,13 @@
 
 ## Introducing the testing framework: Jest
 
-[Jest](https://www.npmjs.com/package/jest) is a JavaScript testing library that helps you check whether your code works as expected. It’s like a friendly helper that runs your functions and compares their output against what you think the output should be. If everything matches, the test passes (true), and if something’s off, the test fails (false). This makes it easier to catch issues early, before users ever see them.
+[Jest](https://www.npmjs.com/package/jest) is a JavaScript testing library that helps ensure your code behaves as expected. Think of it as a tool that runs your functions and checks if their results match what you expect. If the results are correct, the test passes; if they’re not, the test fails. This helps you catch problems early, before they affect users.
 
-In other words, Jest lets you say, “I expect this function to return X.” If it doesn’t, Jest will let you know right away, so you can fix the problem in your code.
+In simpler terms, Jest allows you to say, "I expect this function to return X." If the function returns anything else, Jest will alert you, so you can quickly fix the issue in your code.
 
 ## Setting up a new project for testing
 
-Let’s walk through the process of setting up a simple project to use Jest. Don’t worry if some steps feel repetitive—this will all make sense as you practice.
+Let’s walk through the process of setting up a simple project to use Jest.
 
 ### 1. `cd` into the directory you created during setup
 

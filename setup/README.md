@@ -5,7 +5,7 @@
 
 ## Setup
 
-Lets set up a new project to learn testing.
+Let's set up a new project to learn testing.
 
 
 Make a new directory called <code class="filepath">test-driven-development-with-jest</code>, then enter this directory:

@@ -3,7 +3,7 @@
   <span class="subhead">Writing Unit Tests with Jest</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to write and group unit tests for JavaScript functions using Jest, leveraging `describe`, `it`/`test`, and matchers like `expect().toBe()`.
+**Learning objective:** By the end of this lesson, students will be able to write and group unit tests for JavaScript functions using Jest, using `describe`, `it`, `test`, and matchers like `expect().toBe()`.
 
 ## Writing tests in Jest: `describe`, `it`, and `test`
 
