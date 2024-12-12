@@ -17,6 +17,12 @@ Imagine you’ve built an app with hundreds of features and thousands of possibl
 
 While writing tests can feel time-consuming upfront, it ultimately saves time and frustration in the long run. With a solid test suite, you can instantly check if everything still works as expected, without having to manually hunt down obscure bugs.
 
+<br>
+
+<img src="./assets/tdd.png" alt="TDD Cycle" style="width:800px;"/>
+
+<br>
+
 ## TDD
 
 TDD stands for Test Driven Development. The idea is to write your tests **before** you write any of the corresponding application code. This might sound backwards at first, but here’s why it works:
