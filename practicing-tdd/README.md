@@ -11,7 +11,7 @@ Now it’s time to practice putting TDD into action. We’ve got some test cases
 
 To get started:
 
-1. **Copy the starter code:**..
+1. **Copy the starter code:**  
    Copy and paste the tests below into your `functions.test.js` file.
 
 2. **Write functions to satisfy the tests:**  
