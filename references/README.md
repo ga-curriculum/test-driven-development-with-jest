@@ -5,6 +5,7 @@
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Jest](https://www.npmjs.com/package/jest)
+- [expect()](https://jestjs.io/docs/expect)
+- [toBe()](https://jestjs.io/docs/expect#tobevalue)
+- [Jest documentation](https://jestjs.io/docs/using-matchers)

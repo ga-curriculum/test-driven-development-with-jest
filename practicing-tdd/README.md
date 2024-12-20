@@ -5,7 +5,12 @@
 
 **Learning objective:** By the end of this lesson, students will be able to implement new functions that satisfy predefined test conditions, demonstrating the ability to apply TDD principles to write reliable and maintainable code.
 
-## Practicing TDD
+<br>
+
+<div class="activity solo-exercise">
+  <h2 class="title">Practicing TDD</h2>
+  <span class="minutes">30 min</span>
+</div>
 
 Now it’s time to practice putting TDD into action. We’ve got some test cases waiting for you, and your job is to write code that makes these tests pass. Don’t worry if it feels a bit backwards at first—this is part of the process. By the time you’re done, you’ll be more comfortable with TDD and how it helps ensure that every change you make is guided by a clear requirement.
 
