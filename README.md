@@ -35,8 +35,8 @@ This module provides an introduction to Test Driven Development (TDD) using Jest
 
 ### Course landing pages
 
-- [MEA- Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest/canvas-landing-pages/mea.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest/canvas-landing-pages/fallback.html)
+- [MEA- Modern Engineering](https://ga-curriculum.github.io/test-driven-development-with-jest/canvas-landing-pages/mea.html)
+- [Fallback](https://ga-curriculum.github.io/test-driven-development-with-jest/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -48,4 +48,4 @@ This module provides an introduction to Test Driven Development (TDD) using Jest
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
