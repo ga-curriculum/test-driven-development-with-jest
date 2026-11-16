@@ -31,7 +31,7 @@ This module provides an introduction to Test Driven Development (TDD) using Jest
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/test-driven-development-with-jest-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/test-driven-development-with-jest-solution)
 
 ### Course landing pages
 
